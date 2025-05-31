@@ -1,0 +1,114 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 16px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+body.mustang {
+    background-color: #f2f8ff;
+    color: #1a2e66;
+}
+.mustang nav a {
+    background-color: #cce0ff;
+    color: #1a2e66;
+}
+.mustang nav a:hover {
+    background-color: #b3d1ff;
+}
+.mustang section {
+    background-color: #e0f0ff;
+    border-left: 5px solid #91bfff;
+}
+
+body.spitfire {
+    background-color: #fffdea;
+    color: #665c00;
+}
+.spitfire nav a {
+    background-color: #fff2b3;
+    color: #665c00;
+}
+.spitfire nav a:hover {
+    background-color: #ffeb99;
+}
+.spitfire section {
+    background-color: #fff8cc;
+    border-left: 5px solid #ffe066;
+}
+
+body.il2 {
+    background-color: #effff0;
+    color: #2e6633;
+}
+.il2 nav a {
+    background-color: #c9f2cc;
+    color: #2e6633;
+}
+.il2 nav a:hover {
+    background-color: #b3e6b8;
+}
+.il2 section {
+    background-color: #e6fff0;
+    border-left: 5px solid #8fd19b;
+}
+
+body.zero {
+    background-color: #fff0f0;
+    color: #661a1a;
+}
+.zero nav a {
+    background-color: #f2c9c9;
+    color: #661a1a;
+}
+.zero nav a:hover {
+    background-color: #e6b3b3;
+}
+.zero section {
+    background-color: #ffe6e6;
+    border-left: 5px solid #ff9999;
+}
+
+main {
+    padding: 16px;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 12px;
+    border: none;
+}
